@@ -1,3 +1,4 @@
+#pragma comment(lib, "winmm.lib")
 #include "wtypes.h"
 #include <iostream>
 #include <random>
