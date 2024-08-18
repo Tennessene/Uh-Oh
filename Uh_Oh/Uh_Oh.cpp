@@ -175,9 +175,7 @@ void _MessageBox(int NumberOfMsgBoxes)
     }
 }
 
-int main()
-{
-    ShowWindow(GetConsoleWindow(), SW_HIDE); //Comment when DEBUGGING
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     PlaySound(MAKEINTRESOURCE(IDR_WAVE1), NULL, SND_RESOURCE | SND_ASYNC);
     _MessageBox(3);
 }
